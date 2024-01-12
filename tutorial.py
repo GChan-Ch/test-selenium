@@ -11,7 +11,7 @@ options.add_argument("--disable-blink-features=AutomationControlled")
 # PATH = ("C:\\Users\\gold.aptaworks\\OneDrive\\Documents\\Learn selenium\\chrome v120\\chromedriver.exe")
 # driver = webdriver.Chrome(PATH)
 
-# opsi 2 python 3.10
+# opsi 2 python 3.10 - selenium 4.0 keatas
 service = webdriver.ChromeService(
     executable_path='C:\\Users\\gold.aptaworks\\OneDrive\\Documents\\Learn selenium\\chrome v120\\chromedriver.exe')
 driver = webdriver.Chrome(service=service)
